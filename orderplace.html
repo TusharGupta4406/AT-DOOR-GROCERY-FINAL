@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Success</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        .contentBox {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .iconCircle {
+            background-color: green;
+            color: white;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .thankYouMessage {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: green;
+        }
+
+        .buttonOK {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 150px;
+            height: 40px;
+            border: none;
+            border-radius: 20px;
+            background-color: green;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .buttonOK i {
+            margin-left: 5px;
+        }
+
+        video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted>
+        <source src="play.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="container">
+        <div class="contentBox">
+            <div class="iconCircle">
+                <i class="fas fa-check"></i>
+            </div>
+
+            <div class="thankYouMessage">
+                <p>Thank You, your order has been placed successfully.</p>
+                <p>Check your email for more details.</p>
+            </div>
+
+            <button class="buttonOK" onclick="redirectToMain()">
+                OK <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <audio autoplay loop>
+        <source src="play.mp4" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        function redirectToMain() {
+            window.location.href = "main.html";
+        }
+    </script>
+</body>
+</html>

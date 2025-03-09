@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('upi.webp') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Overlay Background */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* 50% Dark Overlay */
+}
+
+/* Payment Modal */
+.payment-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal Content */
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+/* Modal Header */
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.modal-header h3 {
+    margin: 0;
+}
+
+.close-btn {
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
+
+/* QR Code Styling */
+.qr-code img {
+    width: 150px;
+    margin: 10px 0;
+}
+
+/* UPI ID */
+.upi-id {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Payment Icons */
+.payment-icons img {
+    width: 40px;
+    margin: 5px;
+}
+
+/* Amount Styling */
+.amount {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Button Styles */
+.waiting-btn, .payment-done-btn, .card-payment-btn {
+    flex: 1;
+    max-width: 150px;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* Individual Button Colors */
+.waiting-btn {
+    background: blue;
+    color: white;
+}
+
+.payment-done-btn {
+    background: green;
+    color: white;
+}
+
+.card-payment-btn {
+    background: red;
+    color: white;
+}
+
+/* Hover Effects */
+.waiting-btn:hover {
+    background: darkblue;
+}
+
+.payment-done-btn:hover {
+    background: darkgreen;
+}
+
+.card-payment-btn:hover {
+    background: darkblue;
+}
+/* Responsive background for mobile */
+@media (max-width: 768px) {
+    body {
+        background: url('gpaybg.webp') no-repeat center center;
+        background-size: contain;  /* Adjusts the image size for smaller screens */
+        background-attachment: scroll; /* Prevents fixed background issues */
+    }
+}

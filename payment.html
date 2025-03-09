@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>At Door Grocery Payment </title>
+	<link rel="stylesheet" type="text/css" href="assets/css/payment.css">
+	<link rel="icon" type="image/png" href="owner.png">
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="left">
+			<h3>BILLING ADDRESS</h3>
+			<form id="paymentForm">
+				Full name
+				<input type="text" id="fullName" placeholder="Enter name" required>
+				Email
+				<input type="text" id="email" placeholder="Enter email" required>
+
+				Address
+				<input type="text" id="address" placeholder="Enter address" required>
+				
+				City
+				<input type="text" id="city" placeholder="Enter City" required>
+				
+				<div id="zip">
+					<label>
+						State
+						<select id="state">
+							<option value="">Choose State..</option>
+							<option value="Maharashtra">Maharashtra</option>
+							<option value="Rajasthan">Rajasthan</option>
+							<option value="Haryana">Haryana</option>
+							<option value="Uttar Pradesh">Uttar Pradesh</option>
+							<option value="Madhya Pradesh">Madhya Pradesh</option>
+						</select>
+					</label>
+					<label>
+						Zip code
+						<input type="number" id="zipCode" placeholder="Zip code" required>
+					</label>
+				</div>
+			</form>
+		</div>
+
+		<div class="right">
+			<h3>PAYMENT</h3>
+			<form>
+				Accepted Card <br>
+				<img src="image/card1.png" width="100">
+				<img src="image/card2.png" width="50">
+				<br><br>
+
+				Credit card number
+				<input type="text" id="cardNumber" placeholder="Enter card number" required>
+				
+				Exp month
+				<input type="text" id="expMonth" placeholder="Enter Month" required />
+				
+				<div id="zip">
+					<label>
+						Exp year
+						<select id="expYear">
+							<option value="">Choose Year..</option>
+							<option value="2024">2024</option>
+							<option value="2025">2025</option>
+							<option value="2026">2026</option>
+							<option value="2027">2027</option>
+							<option value="2028">2028</option>
+							<option value="2029">2029</option>
+							<option value="2030">2030</option>
+							<option value="2031">2031</option>
+						</select>
+					</label>
+					<label>
+						CVV
+						<input type="number" id="cvv" placeholder="CVV" required>
+					</label>
+				</div>
+			</form>
+
+			<button onclick="validatePayment()">Proceed to Checkout</button>
+		</div>
+	</div>
+</header>
+
+<script>
+function validatePayment() {
+    let fullName = document.getElementById('fullName').value.trim();
+    let email = document.getElementById('email').value.trim();
+    let address = document.getElementById('address').value.trim();
+    let city = document.getElementById('city').value.trim();
+    let state = document.getElementById('state').value;
+    let zipCode = document.getElementById('zipCode').value.trim();
+    let cardNumber = document.getElementById('cardNumber').value.trim();
+    let expMonth = document.getElementById('expMonth').value.trim();
+    let expYear = document.getElementById('expYear').value;
+    let cvv = document.getElementById('cvv').value.trim();
+
+    if (fullName === '' || email === '' || address === '' || city === '' || state === '' || zipCode === '' ||
+        cardNumber === '' || expMonth === '' || expYear === '' || cvv === '') {
+        alert("Please fill in all the payment details before proceeding.");
+        return;
+    }
+
+    // Redirect to order placed page if validation passes
+    window.location.href = "orderplace.html";
+}
+</script>
+
+</body>
+</html>

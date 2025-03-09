@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - At Door Grocery</title>
+    <link rel="icon" type="image/png" href="owner.png">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        #video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1000;
+        }
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+        }
+        .container {
+            max-width: 400px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted id="video-background">
+        <source src="play.mp4" type="video/mp4">
+        <!-- Add more <source> tags for other video formats if necessary -->
+        Your browser does not support the video tag.
+    </video>
+    <audio autoplay loop>
+        <source src="play.mp4" type="audio/mpeg">
+        <!-- Add more <source> tags for other audio formats if necessary -->
+        Your browser does not support the audio element.
+    </audio>
+    <div class="content">
+        <h1 style="font-size: 48px; font-weight: bold;">At Door Grocery</h1>
+        <div class="container">
+            <h2>Dont have an account? Don't worry, we'll make one for you!</h2>
+            <p>Just message us on Instagram or WhatsApp:</p>
+            <button><a href="https://www.instagram.com/itzz_tushu/" target="_blank" style="color: white; text-decoration: none;">Instagram</a></button>
+            <button><a href="whatsapp://send?phone=+917506797657" target="_blank" style="color: white; text-decoration: none;">WhatsApp</a></button>
+        </div>
+    </div>
+</body>
+</html>

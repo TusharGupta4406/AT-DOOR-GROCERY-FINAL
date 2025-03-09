@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>At Door Grocery</title>
+    <link rel="icon" type="image/png" href="owner.png">
+
+<!-- Code for font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">">
+    <!-- Code for font awesome cdn-->
+
+    <!--code for linking css file-->
+<link rel="stylesheet" type="text/css" href="style.css">
+    <!--code for linking css file-->
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    
+<header class="header">
+
+     <a href="#" class="logo" id="logo"><i class="fa fa-shopping-basket" aria-hidden="true"></i><span id="company-name"> At Door Grocery</span></a>
+
+    <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#features">features</a>
+         <a href="#products">product</a>
+         <a href="#categories">categories</a>
+         <a href="#Review">Review</a>
+         <a href="#About">about</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fa fa-bars" id="menu-btn" ></div>
+        
+        <div class="fa fa-user" id="login-btn" ></div>
+        <div class="fa fa-envelope" id="help-btn" ></div>
+    </div>
+    <span class="iconCart">
+        <img src="icon.png">
+        <div class="totalQuantity">0</div>
+    </span>
+
+    <form class="search-form">
+        <input type="search" id="search-box" placeholder="search here ">
+        <label for="search-box" class="fa fa-search"></label>
+    </form>
+    
+
+    <form action="#" class="login-form">
+        <h3>Login Now</h3>
+        <input type="email" name="email" id="email" placeholder="enter your email" class="box">
+        <input type="password" name="password" id="password" placeholder="password" class="box">
+
+        <p>
+            Forget Your password <a href="forgotpass.html"> Click Here</a>
+        </p>
+        <p>
+            Don't have an account <a href="new user.html"> Create Now </a>
+        </p>
+
+        <input value="Login Now -->" class="btn" id="loginButton">
+
+<script>
+  document.getElementById('loginButton').addEventListener('click', function() {
+      window.location.href = 'index.html'; 
+  });
+</script>
+        
+    </form>
+    <!--help-->
+    <div class="envelope-icon" id="help-btn"></div>
+<div class="help-content">
+    <p>24x7 helpline available. Contact us on <strong>7506797657</strong> or WhatsApp us.</p>
+    <a href="whatsapp://send?phone=+917506797657" class="whatsapp-button" target="_blank">WhatsApp</a>
+</div>
+
+
+
+    <!--help-->
+     
+    
+    
+</header>
+
+<!-- banner section-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Fresh and <span id="organic">Organic</span>  Products for You</h3>
+        <p>
+            Discover the freshest groceries delivered directly to your door!From your local favorites to everything on your list, we've got you covered. Experience hassle-free grocery shopping and get free delivery on orders over 250.  Start shopping today! 
+                    </p>
+        <a href="#products" class="btn">Shop Now</a>
+    </div>
+</section>
+
+<!-- banner section-->
+
+<!-- Features section-->
+<section class="features" id="features">
+    <h1 class="heading"> Our <span>Features</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="imges/Features 1.jpg" alt="">
+            <h3 id="myfeatures"> Fresh and Organic</h3>
+            <p>
+                Discover quality, sustainable produce At Door Grocery. Sourced directly for a nourishing experience. Shop now for fresh and organic delights!
+            </p>
+            <a href="feature1.html" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <img src="imges/Features 2.avif" alt="">
+            <h3 id="myfeatures"> Fast and Free Delivery</h3>
+            <p>
+                Fast and free delivery At Door Grocery: Swift service ensures fresh, organic delights reach your doorstep promptly. Good Experience convenience and top delivery agents!
+            </p>
+            <a href="feature2.html" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <img src="imges/Features 3.jpg" alt="">
+            <h3 id="myfeatures"> Easy Payment System </h3>
+            <p>
+                "Easy payment system At Door Grocery: Streamlined checkout with secure online transactions and cash-on-delivery options for seamless satisfaction. Shop now!
+            </p>
+            <a href="feature3.html" class="btn">read more</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- Features section-->
+
+<!-- Product section-->
+
+<section class="products" id="products">
+    <h1 class="heading"> Our <span>Product</span></h1>
+<div class="listProduct">
+
+            <div class="item">
+                <img src="images/1.webp" alt="">
+                <h3>Fresh Oranges</h3>
+                <div class="price">₹80</div>
+                <p>Price: ₹80/kg</p>
+                <button>Add To Cart</button>
+                
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Categories section -->
+<section class="categories" id="categories">
+    <h1 class="heading"> Our <span>Categories</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="imges/Categories 1.avif" alt="">
+            <h3>Vegetables</h3>
+            <p>Upto 50% Off</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="imges/Categories 2.avif" alt="">
+            <h3>Fresh Fruits</h3>
+            <p>Upto 60% Off</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="imges/Categories 3.avif" alt="">
+            <h3>Dairy Products</h3>
+            <p>Upto 45% Off</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="imges/Categories 4.jpg" alt="">
+            <h3>Fresh Meat</h3>
+            <p>Upto 40% Off</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+        
+    </div>
+
+</section>
+
+<!-- Categories section -->
+<!-- Review section -->
+
+<section class="section section-testimonial " id="Review">
+    <div class="container">
+        <h2 class="common-heading">Top Customer's Reviews</h2>
+      </div>
+      <!-- Slider main container -->
+      <!-- Swiper -->
+<div class="swiper mySwiper container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+    
+      <div class="swiper-client-msg">
+        <p>"I love shopping on this website! The variety of products is amazing, and the quality is top-notch. Plus, the delivery is always on time. Highly recommended!"</p>
+      </div>
+      <div class="swiper-client-data grid grid-two-col ">
+        <figure>
+        <img loading="lazy" src="reviews img/reviews 1.jpg" alt="">
+        </figure>
+        <div class="client-data-details">
+          <p>Tushar Gupta</p>
+          <p>Author and Owner</p>
+        </div>
+      </div>
+    </div>
+    <!-- slide end  -->
+     <div class="swiper-slide">
+    
+      <div class="swiper-client-msg">
+        <p>"As a busy professional, this website has been a lifesaver for me. I can easily order all my groceries online and have them delivered right to my doorstep. It's convenient, efficient, and saves me so much time!"</p>
+      </div>
+      <div class="swiper-client-data grid grid-two-col ">
+        <figure>
+        <img loading="lazy" src="reviews img/reviews 2.jpg" alt="">
+        </figure>
+        <div class="client-data-details">
+          <p>Siddesh</p>
+          <p>Daily Customer</p>
+        </div>
+      </div>
+    </div>
+    <!-- slide end  -->
+     <div class="swiper-slide">
+    
+      <div class="swiper-client-msg">
+        <p>"I've been a loyal customer for years, and I have never been disappointed. The customer service is exceptional, and the selection of organic and locally sourced products is fantastic. This website has become my go-to for all my grocery needs."</p>
+      </div>
+      <div class="swiper-client-data grid grid-two-col ">
+        <figure>
+        <img loading="lazy" src="reviews img/reviews 3.jpg" alt="">
+        </figure>
+        <div class="client-data-details">
+          <p>Roshni</p>
+          <p>Top Customer</p>
+        </div>
+      </div>
+    </div>
+    <!-- slide end  -->
+     <div class="swiper-slide">
+    
+      <div class="swiper-client-msg">
+        <p>"This online grocery store is a game-changer! The interface is user-friendly, and the selection is vast. Quick deliveries and excellent customer service make shopping here a pleasure. Highly satisfied!"</p>
+      </div>
+      <div class="swiper-client-data grid grid-two-col ">
+        <figure>
+        <img loading="lazy" src="reviews img/reviews 4.jpg" alt="">
+        </figure>
+        <div class="client-data-details">
+          <p>Yogesh More</p>
+          <p>CA</p>
+        </div>
+      </div>
+    </div>
+    <!-- slide end  -->
+     <div class="swiper-slide">
+    
+      <div class="swiper-client-msg">
+        <p>"Absolutely love this grocery website! It's user-friendly, offers a wide range of products, and the delivery is always prompt. Highly recommend for all your grocery needs!"</p>
+      </div>
+      <div class="swiper-client-data grid grid-two-col ">
+        <figure>
+        <img src="reviews img/reviews 5.jpg" alt="">
+        </figure>
+        <div class="client-data-details">
+          <p>Alisha Gupta</p>
+          <p>Real Estate</p>
+        </div>
+      </div>
+    </div>
+    <!-- slide end  -->
+     <div class="swiper-slide">
+    
+      <div class="swiper-client-msg">
+        <p>"Shopping here is a breeze! The website layout is intuitive, prices are competitive, and the fresh produce is top-notch. Couldn't ask for a better online grocery experience.".</p>
+      </div>
+      <div class="swiper-client-data grid grid-two-col ">
+        <figure>
+        <img src="reviews img/reviews 6.jpg" alt="">
+        </figure>
+        <div class="client-data-details">
+          <p>Dhruv Haria</p>
+          <p>Vela</p>
+        </div>
+      </div>
+    </div>
+    <!-- slide end  -->
+     <div class="swiper-slide">
+    
+      <div class="swiper-client-msg">
+        <p>"This site has revolutionized my grocery shopping. Convenient, reliable, and the quality of products exceeds expectations every time. Makes life so much easier!"</p>
+      </div>
+      <div class="swiper-client-data grid grid-two-col ">
+        <figure>
+        <img src="reviews img/reviews 7.jpg" alt="">
+        </figure>
+        <div class="client-data-details">
+          <p>Neha</p>
+          <p>Home Needs</p>
+        </div>
+      </div>
+    </div>
+    <!-- slide end  -->
+     <div class="swiper-slide">
+    
+      <div class="swiper-client-msg">
+        <p>"Using this website saves me so much time and hassle. From browsing to checkout, everything is smooth. Plus, the customer service is exceptional. Definitely my go-to for groceries!".</p>
+      </div>
+      <div class="swiper-client-data grid grid-two-col ">
+        <figure>
+        <img src="reviews img/reviews 8.jpg" alt="">
+        </figure>
+        <div class="client-data-details">
+          <p>Raj Gupta</p>
+          <p>Entrepruner</p>
+        </div>
+      </div>
+    </div>
+    <!-- slide end  -->
+   
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+    </div>
+</section>
+
+<!-- Review section -->
+
+
+
+
+    <div class="cart">
+        <h1>
+            MY CART ITEMS
+        </h1>
+
+        <div class="listCart">
+
+
+            <div class="item">
+                <img src="images/1.webp">
+                <div class="content">
+                    <div class="name">Fresh Oranges</div>
+                    <div class="price">₹550 / 1 product</div>
+                </div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span class="value">3</span>
+                    <button>+</button>
+                </div>
+            </div>
+
+        
+        </div>
+
+        <div class="buttons">
+            <div class="close">
+                CLOSE
+            </div>
+            <div class="checkout">
+                <a href="checkout.html">CHECKOUT</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+<!-- Product section-->
+
+<!--footer-->
+<footer class="footer-distributed" id="About">
+
+    <div class="footer-left">
+        <h3>At Door<span> Grocery</span></h3>
+
+        <p class="footer-links">
+            <a href="#">Home</a>
+            |
+            <a href="#">About</a>
+            |
+            <a href="#">Contact</a>
+            |
+            <a href="#">Blog</a>
+        </p>
+
+        <p class="footer-company-name">Copyright © 2024 <strong>At Door Grocery</strong> All rights reserved</p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Maharashtra</span>
+                Mumbai</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+91 7506797657</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:kingtushar44@outlook.com">Support.atdoorgrocery.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About the company</span>
+            <strong>AT DOOR GROCERY</strong>is your one-stop online shop for all your grocery needs. We pride ourselves on delivering fresh, high-quality products right to your doorstep, we make grocery shopping easy and hassle-free for you.
+        </p>
+        
+        <div class="footer-icons">
+            <span><h2> Follow us on social media</h2></span>
+            <a href="https://www.facebook.com/profile.php?id=100011080545046"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/itzz_tushu/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/tushar-gupta-8b972227b/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/tushu_panda"><i class="fab fa-twitter"></i></a>
+            <a href="whatsapp://send?phone=+917506797657"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<!--footer-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

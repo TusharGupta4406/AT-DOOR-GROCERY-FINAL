@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT DOOR GROCERY LOGIN</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="icon" type="image/png" href="owner.png">
+</head>
+
+<body>
+  <video autoplay muted loop id="background-video">
+    <source src="play.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+    
+    <main>
+        <div class="left-side"></div>
+
+        <div class="right-side">
+            <form id="loginForm">
+                <div class="btn-group">
+                    <button class="btn">
+                        <img class="logo" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/d1c98974-c62d-4071-8bd2-ab859fc5f4e9" alt="" />
+                        <span>Sign in with Google</span>
+                    </button>
+                    <button class="btn">
+                        <img class="logo" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/59c1561b-8152-4d05-b617-0680a7629a0e" alt="" />
+                        <span>Sign in with Apple</span>
+                    </button>
+                </div>
+
+                <div class="or">OR</div>
+
+                <label for="email">Email</label>
+                <input type="text" placeholder="Type admin" name="email" required />
+
+                <label for="password">Password</label>
+                <input type="password" placeholder="Type admin" name="password" required />
+                <span style="font-weight: bold; color: red;">Note:-</span> 
+                <span style="font-weight: bold; color: black;">Please Type Admin to login</span>
+
+                <button type="submit" class="login-btn">Sign in</button>
+                <div class="links">
+                    <a href="forgotpass.html">Forgot password?</a>
+                    <a href="new user.html">Do not have an account?</a>
+                </div>
+            </form>
+        </div>
+    </main>
+    <Script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent default form submission
+            func(); // Call your function to handle form submission
+        });
+
+        function func() {
+            var email = document.getElementsByName("email")[0].value;
+            var pass = document.getElementsByName('password')[0].value;
+            if (email === 'kingtushar44@gmail.com' && pass === '123456') {
+                alert("Successfully to TUSHAR GUPTA");
+                window.location.assign("main.html");
+            } else if (email === 'sid1@gmail.com' && pass === '987654') {
+                alert("Successfully Logged in as SID!");
+                window.location.assign("main.html");
+            } else if (email === 'admin' && pass === 'admin') {
+                alert("Successfully Logged in as Tushar Gupta");
+                window.location.assign("main.html");
+            } else if (email === 'lnclg@gmail.com' && pass === 'ln1234') {
+                alert("Successfully Logged in as LN CLG");
+                window.location.assign("main.html");
+            } else {
+                alert("Invalid Email or Password");
+            }
+        }
+    </Script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

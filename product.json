@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name": "Fresh Oranges 500gm (4pics)",
+        "price": 80,
+        "image": "images/1.avif"
+    },
+    {
+        "id": 2,
+        "name": "Fresh Kiwi 1kg (10pics)",
+        "price": 160,
+        "image": "images/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Fresh Grapes 500gm",
+        "price": 130,
+        "image": "images/3.avif"
+    },
+    {
+        "id": 4,
+        "name": "Kasmiri Apples 1kg",
+        "price": 220,
+        "image": "images/4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Banana 1 dozen (12pics)",
+        "price": 40,
+        "image": "images/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "WaterMelon 1pc",
+        "price": 120,
+        "image": "images/6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Pineapple 1pc",
+        "price": 80,
+        "image": "images/7.avif"
+    },
+    {
+        "id": 8,
+        "name": "Mango 1kg",
+        "price": 90,
+        "image": "images/8.avif"
+    },
+    {
+        "id": 9,
+        "name": "Coconut 1pc",
+        "price": 60,
+        "image": "images/9.avif"
+    },
+    {
+        "id": 10,
+        "name": "Papaya 1kg",
+        "price": 80,
+        "image": "images/10.avif"
+    },
+    {
+        "id": 11,
+        "name": "Carrots 500gm",
+        "price": 30,
+        "image": "images/11.avif"
+    },
+    {
+        "id": 12,
+        "name": "Broccoli 500gm",
+        "price": 40,
+        "image": "images/12.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Spinach 250gm",
+        "price": 25,
+        "image": "images/13.avif"
+    },
+    {
+        "id": 14,
+        "name": "Tomatoes 1kg",
+        "price": 35,
+        "image": "images/14.avif"
+    },
+    {
+        "id": 15,
+        "name": "Brinjal 500gm",
+        "price": 28,
+        "image": "images/15.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Cabbage 1pc",
+        "price": 80,
+        "image": "images/16.avif"
+    },
+    {
+        "id": 17,
+        "name": "Green Beans 500gm",
+        "price": 100,
+        "image": "images/17.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Zucchini 500gm",
+        "price": 70,
+        "image": "images/18.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Onion 1kg",
+        "price": 50,
+        "image": "images/19.avif"
+    },
+    {
+        "id": 20,
+        "name": "Potato 1kg",
+        "price": 40,
+        "image": "images/20.avif"
+    },
+    {
+        "id": 21,
+        "name": "Amul Milk Tazza 1L pack of 2",
+        "price": 50,
+        "image": "images/21.webp"
+    },
+    {
+        "id": 22,
+        "name": "Amul Cheese 200gm",
+        "price": 120,
+        "image": "images/22.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Amul Yogurt 500gm",
+        "price": 70,
+        "image": "images/23.webp"
+    },
+    {
+        "id": 24,
+        "name": "Amul Butter 100gm",
+        "price": 80,
+        "image": "images/24.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Eggs 1 dozen 12pcs",
+        "price": 60,
+        "image": "images/25.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Chicken Breast 500gm",
+        "price": 150,
+        "image": "images/26.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Prawns 500gm",
+        "price": 220,
+        "image": "images/27.webp"
+    },
+    {
+        "id": 28,
+        "name": "Rohu Fish 1pc",
+        "price": 200,
+        "image": "images/28.png"
+    },
+    {
+        "id": 29,
+        "name": "Pomfret 1pc",
+        "price": 300,
+        "image": "images/29.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Chicken Leg Piece 500gm",
+        "price": 300,
+        "image": "images/30.webp"
+    },
+    {
+        "id": 31,
+        "name": "Parle-G biscuits pack of 2",
+        "price": 20,
+        "image": "images/31.webp"
+    },
+    {
+        "id": 32,
+        "name": "Britannia Good Day 100gm",
+        "price": 20,
+        "image": "images/32.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Sunfeast Dark Fantasy 150gm",
+        "price": 30,
+        "image": "images/33.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Britannia Marie Gold 100gm",
+        "price": 15,
+        "image": "images/34.webp"
+    },
+    {
+        "id": 35,
+        "name": "Parle Hide & Seek 100gm",
+        "price": 25,
+        "image": "images/35.jpg"
+    },
+    {
+        "id": 41,
+        "name": "Dawat Basmati Rice 1kg",
+        "price": 100,
+        "image": "images/36.webp"
+    },
+    {
+        "id": 42,
+        "name": "TATA Sampann Toor Dal 1kg",
+        "price": 80,
+        "image": "images/37.webp"
+    },
+    {
+        "id": 43,
+        "name": "Aashirvaad Aata 5kg",
+        "price": 350,
+        "image": "images/38.webp"
+    },
+    {
+        "id": 44,
+        "name": "Royal Refined Sugar 1kg",
+        "price": 40,
+        "image": "images/39.webp"
+    },
+    {
+        "id": 45,
+        "name": "TATA Salt Iodised Salt 1kg",
+        "price": 10,
+        "image": "images/40.jpg"
+    }
+]

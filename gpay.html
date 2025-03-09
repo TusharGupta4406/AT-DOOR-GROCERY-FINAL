@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPI Payment</title>
+    <link rel="stylesheet" href="gpay.css">
+</head>
+<body>
+
+    <div class="payment-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Payment</h3>
+                <span class="close-btn" onclick="closeModal()">✖</span>
+            </div>
+            <p>Order ID: <strong>#103130</strong></p>
+            
+            <div class="qr-code">
+                <img src="qr-code.jpg" alt="QR Code">
+            </div>
+            
+            <p class="upi-id">GUPTACOURSE@FAM</p>
+            
+            <p>Please scan the QR code with any UPI app to pay for your order.</p>
+
+            <div class="payment-icons">
+                <img src="image/paytm.svg" alt="Paytm">
+                <img src="image/googlepay.svg" alt="GPay">
+                <img src="image/phonepe.svg" alt="PhonePe">
+            </div>
+
+            <p class="amount">AT DOOR GROCERY</p>
+
+            <div class="button-container">
+                <button class="waiting-btn" id="waiting-button">Waiting... (30)</button>
+                <a href="orderplace.html">
+                    <button class="payment-done-btn">Payment Done Click Here</button>
+                </a>
+                <a href="payment.html">
+                    <button class="card-payment-btn">Pay with Card</button>
+                </a>
+            </div>
+            
+            
+            
+           
+        </div>
+    </div>
+
+    <script src="gpay.js"></script>
+
+</body>
+</html>
